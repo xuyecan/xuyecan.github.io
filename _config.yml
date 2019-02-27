@@ -1,0 +1,21 @@
+# Jekyll Defaults
+title: xuyecan1919
+description: It is loneliness that makes you different, not gregariousnes.
+baseurl: ""
+
+url: "https://xuyecan.github.io/"
+github: http://github.com/xuyecan/xuyecan.github.io
+highlighter: rouge
+markdown: kramdown
+permalink: /post/:title/
+paginate: 10
+gems: [jekyll-paginate]
+paginate_path: "/page:num"
+rss_path: /feed.xml
+navigation:
+- text: 文章
+  url: /archives/
+- text: 标签
+  url: /tags/
+- text: 关于
+  url: /about/
