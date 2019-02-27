@@ -2,8 +2,7 @@
 title: xuyecan1919
 description: It is loneliness that makes you different, not gregariousnes.
 baseurl: ""
-
-url: "https://xuyecan.github.io/"
+url: "https://xuyecan.github.io"
 github: http://github.com/xuyecan/xuyecan.github.io
 highlighter: rouge
 markdown: kramdown
@@ -13,6 +12,8 @@ gems: [jekyll-paginate]
 paginate_path: "/page:num"
 rss_path: /feed.xml
 navigation:
+- text: 首页
+  url: /
 - text: 文章
   url: /archives/
 - text: 标签
